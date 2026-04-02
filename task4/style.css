@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 30px;
+    background: #fff;
+}
+
+header .logo {
+    height: 150px;
+}
+
+.header-right span{
+    color: #4f4d4d;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.header-right h1 {
+    margin-top: -7%;
+   font-size: 50px;
+   font-weight: 600;
+   
+}
+.call-us{
+    font-size: 24px;
+    color: #8b0000;
+    font-weight: 700;
+    border-bottom: 2px solid #534c4c;
+}
+
+
+nav {
+    background: #8b0000;
+    text-align: center;
+    display: flex;
+    justify-content: end;
+    padding-right:  40px;
+
+    
+}
+
+nav a {
+    color: white;
+    margin: 10px 15px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+.hero {
+    display: flex;
+    padding: 20px;
+}
+
+.hero-left {
+    position: relative;
+    width: 60%;
+}
+
+.hero-left img {
+    width: 100%;
+
+}
+
+.hero-text {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+}
+
+.hero-text h2 span {
+    color: gold;
+}
+
+.hero-right {
+    padding: 20px;
+    margin-left: 20px;
+    width: 50%;
+    background: url(form_bg.jpg);
+    background-size: cover;
+    background-position: center;
+}   
+
+.hero-right input, .hero-right textarea {
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+}
+
+.hero-right button {
+    background: rgb(126, 22, 22);;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    margin-top: 10px;
+}
+.hero-right h3{
+    background-color: #8b0000;
+    color: white;
+    padding: 10px;
+    width: 26%;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-top: -3%;
+    margin-left: -3%;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.feature-box {
+    background: #fff;
+    padding: 15px;
+    width: 22%;
+    text-align: center;
+    box-shadow: 0px 0px 5px #ccc;
+}
+
+.feature-box button {
+    background: rgb(126, 22, 22);
+    color: white;
+    border: none;
+    padding: 8px;
+    margin-top: 10px;
+}
+
+
+main {
+    display: flex;
+    padding: 20px;
+}
+
+.sidebar {
+    width: 20%;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    background: #999;
+    color: white;
+    margin: 5px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    width: 55%;
+    padding: 0 20px;
+}
+
+.rightbar {
+    width: 25%;
+}
+
+.rightbar div {
+    margin-bottom: 15px;
+}
+
+.rightbar button {
+    width: 100%;
+    background: rgb(126, 22, 22);;
+    color: white;
+    border: none;
+    padding: 8px;
+}
+.span {
+    color: rgb(126, 22, 22);
+    font-weight: bold;
+}
